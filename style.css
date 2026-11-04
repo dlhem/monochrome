@@ -22,9 +22,45 @@ a {
     color: black;
 }
 
-.section1 {
-    height: 90vh;
+.section {
+    height: 90vh;²  ²
     background-position: center;
     background-image: url(image/bg-image-hero.png);
+    color: white;
+}
 
+.container {
+    width: 60vw;
+    margin: auto;
+}
+
+.ct {
+    padding: 9%;
+}
+
+.section1 {
+    margin: 60px;
+}
+
+.ct1 {
+    padding: 3%;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.section2 {
+    height: 60vh;
+    color: white;
+    background-position: center;
+    background-image: url(image/bg-image-2.png);
+}
+
+.bouton {
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
